@@ -1,0 +1,5 @@
+PASSWORD1                       # Replace literal string 'PASSWORD1' with '***REMOVED***' (default)
+PASSWORD2==>examplePass         # replace with 'examplePass' instead
+PASSWORD3==>                    # replace with the empty string
+regex:password=\w+==>password=  # Replace, using a regex
+regex:\r(\n)==>$1               # Replace Windows newlines with Unix newlines

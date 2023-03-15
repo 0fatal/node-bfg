@@ -1,0 +1,27 @@
+{
+  "name": "node-bfg",
+  "version": "1.0.5",
+  "description": "BFG Repo-Cleaner for Node.js",
+  "main": "index.js",
+  "bin": {
+    "node-bfg": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/0fatal/node-bfg.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bfg",
+    "clean",
+    "git"
+  ],
+  "author": "0fatal",
+  "license": "MIT",
+  "dependencies": {
+    "java-caller": "^2.7.0",
+    "minimist": "^1.2.8"
+  }
+}
