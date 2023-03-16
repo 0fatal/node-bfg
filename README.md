@@ -8,6 +8,7 @@
 
 ## Introducation
 > 我们在 git 提交过程中有时会带上敏感数据，如密钥等。直接删除敏感数据并提交还不行，因为这些数据已经存在于历史提交中，这时候就需要本工具对 git 提交记录进行清洗
+
 > 使用 [bfg](https://rtyley.github.io/bfg-repo-cleaner/) 完成git仓库敏感数据等的清洗，本工具旨在对bfg做封装，免去手动下载bfg的jar包和安装jre环境。参数传递和bfg一致
 
 ## Usage
